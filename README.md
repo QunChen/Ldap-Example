@@ -6,7 +6,7 @@ Spring Ldap example for Grails application
 
 In this example, it shows how to setup a Spring Ldap connection for Grails application. 
 
-1. set up configuration file for connecting LDAP server
+1  set up configuration file for connecting LDAP server
 
 In the conf/spring/resources.groovy file, a server can be instanced by org.springframework.ldap.core.support.LdapContextSource and attributes including url, base, userDN and password can be populated. The pattern should looks like this: 
 			
@@ -19,11 +19,11 @@ In the conf/spring/resources.groovy file, a server can be instanced by org.sprin
 			
 Please remove the [] when you use your own values. 
 
-2. Define class for storing LDAP output
+2  Define class for storing LDAP output
 
 You could check the code under src/groovy/edu.uow.security.ldap
 
-3. Create service class for doing the search 
+3 Create service class for doing the search 
 
 In the services/ldap folder, you can find a class do the search job. 
 
