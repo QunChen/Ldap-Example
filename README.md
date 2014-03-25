@@ -9,12 +9,14 @@ In this example, it shows how to setup a Spring Ldap connection for Grails appli
 1. set up configuration file for connecting LDAP server
 
 In the conf/spring/resources.groovy file, a server can be instanced by org.springframework.ldap.core.support.LdapContextSource and attributes including url, base, userDN and password can be populated. The pattern should looks like this: 
+			
 			[definded Name](LdapContextSource){
 				url = 'ldap://[your ldap url]'
 				base = "ou=[your ou],dc=[your dc],dc=[your dc],dc=[your au]"
 				userDn = "uid=[your uid],ou=[your ou],dc=[your dc],dc=[your dc],dc=[your dc]"
 				password = [your password]
 			}
+			
 Please remove the [] when you use your own values. 
 
 2. Define class for storing LDAP output
