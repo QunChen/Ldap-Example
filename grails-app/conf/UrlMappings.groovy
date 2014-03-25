@@ -7,7 +7,7 @@ class UrlMappings {
 			}
 		}
 
-		"/"(view:"/index")
+		"/"(view:"/ldap/index")
 		"500"(view:'/error')
 	}
 }

@@ -3,6 +3,9 @@ package ldap
 import javax.naming.NamingEnumeration
 import grails.util.Environment
 
+/*
+ * Simple test controller for display 
+ */
 class LdapController {
 
 	def ldapSearchService
